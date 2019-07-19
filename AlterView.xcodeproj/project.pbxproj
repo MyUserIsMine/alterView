@@ -13,6 +13,7 @@
 		AA5B8E3522E15599004BA187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5B8E3422E15599004BA187 /* Assets.xcassets */; };
 		AA5B8E3822E15599004BA187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5B8E3622E15599004BA187 /* LaunchScreen.storyboard */; };
 		AA5B8E3B22E15599004BA187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B8E3A22E15599004BA187 /* main.m */; };
+		AA5B8E4322E15ECB004BA187 /* CustomAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B8E4222E15ECB004BA187 /* CustomAlterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AA5B8E3722E15599004BA187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5B8E3922E15599004BA187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5B8E3A22E15599004BA187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5B8E4122E15ECB004BA187 /* CustomAlterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAlterView.h; sourceTree = "<group>"; };
+		AA5B8E4222E15ECB004BA187 /* CustomAlterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				AA5B8E2C22E15597004BA187 /* AppDelegate.m */,
 				AA5B8E2E22E15597004BA187 /* ViewController.h */,
 				AA5B8E2F22E15597004BA187 /* ViewController.m */,
+				AA5B8E4122E15ECB004BA187 /* CustomAlterView.h */,
+				AA5B8E4222E15ECB004BA187 /* CustomAlterView.m */,
 				AA5B8E3122E15597004BA187 /* Main.storyboard */,
 				AA5B8E3422E15599004BA187 /* Assets.xcassets */,
 				AA5B8E3622E15599004BA187 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				AA5B8E3022E15597004BA187 /* ViewController.m in Sources */,
 				AA5B8E3B22E15599004BA187 /* main.m in Sources */,
+				AA5B8E4322E15ECB004BA187 /* CustomAlterView.m in Sources */,
 				AA5B8E2D22E15597004BA187 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
